@@ -16,7 +16,10 @@
     "@react-navigation/bottom-tabs": "^6.0.5",
     "@react-navigation/native": "^6.0.2",
     "@react-navigation/native-stack": "^6.1.0",
+<<<<<<< HEAD
     "buffer": "^6.0.3",
+=======
+>>>>>>> 4678eb9a0bf38b392e612da76b8dff880630fd33
     "expo": "~44.0.0",
     "expo-asset": "~8.4.4",
     "expo-constants": "~13.0.0",
@@ -32,18 +35,32 @@
     "react-native-ble-plx": "^2.0.3",
     "react-native-safe-area-context": "3.3.2",
     "react-native-screens": "~3.10.1",
+<<<<<<< HEAD
     "react-native-web": "0.17.1"
+=======
+    "react-native-web": "0.17.1",
+    "sharp-cli": "^1.15.0"
+>>>>>>> 4678eb9a0bf38b392e612da76b8dff880630fd33
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@types/react": "~17.0.21",
     "@types/react-native": "~0.64.12",
+<<<<<<< HEAD
     "jest": "^26.6.3",
     "jest-expo": "~44.0.1",
+=======
+    "jest-expo": "~44.0.1",
+    "jest": "^26.6.3",
+>>>>>>> 4678eb9a0bf38b392e612da76b8dff880630fd33
     "react-test-renderer": "17.0.1",
     "typescript": "~4.3.5"
   },
   "private": true,
+<<<<<<< HEAD
   "name": "ble-skroman",
+=======
+  "name": "android_ble_test",
+>>>>>>> 4678eb9a0bf38b392e612da76b8dff880630fd33
   "version": "1.0.0"
 }
