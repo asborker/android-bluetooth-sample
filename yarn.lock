@@ -6024,14 +6024,6 @@ react-native-codegen@^0.0.6:
     jscodeshift "^0.11.0"
     nullthrows "^1.1.1"
 
-<<<<<<< HEAD
-react-native-esp-idf-ble-provisioning-rn@^0.2.5:
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/react-native-esp-idf-ble-provisioning-rn/-/react-native-esp-idf-ble-provisioning-rn-0.2.5.tgz#da0bf046f6d41275d6470a593f2858453f2b0174"
-  integrity sha512-2oj2/ifZB90ly1tBGXn8OAd9qiLkES5SJ0J2SNmwhQFdLyh0ZV9yVrONhUtFtbEsMCkVbq9lSx0uiL5dS7b3lQ==
-
-=======
->>>>>>> 4678eb9a0bf38b392e612da76b8dff880630fd33
 react-native-safe-area-context@3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/react-native-safe-area-context/-/react-native-safe-area-context-3.3.2.tgz#9549a2ce580f2374edb05e49d661258d1b8bcaed"

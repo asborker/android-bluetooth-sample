@@ -1,12 +1,7 @@
 {
   "expo": {
-<<<<<<< HEAD
     "name": "BLE",
     "slug": "BLE",
-=======
-    "name": "android_ble_test",
-    "slug": "android_ble_test",
->>>>>>> 4678eb9a0bf38b392e612da76b8dff880630fd33
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -27,34 +22,18 @@
       "**/*"
     ],
     "ios": {
-<<<<<<< HEAD
       "supportsTablet": true,
       "bundleIdentifier": "ble"
     },
     "android": {
-=======
-      "supportsTablet": true
-    },
-    "android": {
-      "package": "com.skromanble.app",
-      "versionCode": 1,
->>>>>>> 4678eb9a0bf38b392e612da76b8dff880630fd33
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "permissions": [
-<<<<<<< HEAD
         "android.permission.BLUETOOTH",
         "android.permission.BLUETOOTH_ADMIN"
       ]
-=======
-        "MEDIA_LIBRARY",
-        "android.permission.BLUETOOTH_CONNECT",
-        "android.permission.BLUETOOTH_SCAN"
-      ],
-      "useNextNotificationsApi": true
->>>>>>> 4678eb9a0bf38b392e612da76b8dff880630fd33
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
