@@ -1,5 +1,6 @@
 PODS:
   - boost-for-react-native (1.63.0)
+  - Curve25519 (1.1)
   - DoubleConversion (1.1.6)
   - EXApplication (4.0.1):
     - ExpoModulesCore
@@ -300,6 +301,10 @@ PODS:
   - react-native-ble-plx (2.0.3):
     - MultiplatformBleAdapter (= 0.1.9)
     - React-Core
+  - react-native-espressif (0.1.3):
+    - Curve25519 (~> 1.1.0)
+    - React-Core
+    - SwiftProtobuf (~> 1.6.0)
   - react-native-safe-area-context (3.3.2):
     - React-Core
   - React-perflogger (0.64.3)
@@ -369,6 +374,7 @@ PODS:
   - RNScreens (3.10.2):
     - React-Core
     - React-RCTImage
+  - SwiftProtobuf (1.6.0)
   - Yoga (1.14.0)
 
 DEPENDENCIES:
@@ -407,6 +413,7 @@ DEPENDENCIES:
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - react-native-ble-plx (from `../node_modules/react-native-ble-plx`)
+  - react-native-espressif (from `../node_modules/react-native-espressif`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
@@ -426,7 +433,9 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - boost-for-react-native
+    - Curve25519
     - MultiplatformBleAdapter
+    - SwiftProtobuf
 
 EXTERNAL SOURCES:
   DoubleConversion:
@@ -495,6 +504,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
   react-native-ble-plx:
     :path: "../node_modules/react-native-ble-plx"
+  react-native-espressif:
+    :path: "../node_modules/react-native-espressif"
   react-native-safe-area-context:
     :path: "../node_modules/react-native-safe-area-context"
   React-perflogger:
@@ -528,6 +539,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  Curve25519: 5f595e906bd962248665978e2992a1fe96e2d831
   DoubleConversion: cf9b38bf0b2d048436d9a82ad2abe1404f11e7de
   EXApplication: 2b8f4d665e050ecddffcfb1ce258b7216b6b7777
   EXConstants: ef3ba088036b78e4bbc5e227e2933c618d30b9e9
@@ -562,6 +574,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: df6abc9fafbecb8e5b7a5fbc5e6d4bd017d594d5
   React-jsinspector: 34e23860273a23695342f58eed3ffd3ba10c31e0
   react-native-ble-plx: f10240444452dfb2d2a13a0e4f58d7783e92d76e
+  react-native-espressif: 57d41828b389a1b55504d75a1978955468656c93
   react-native-safe-area-context: 5cf05f49df9d17261e40e518481f2e334c6cd4b5
   React-perflogger: cc76a4254d19640f1d8ad1c66fdee800414b805c
   React-RCTActionSheet: 7448f049318d8d7e8a9a1ebb742ada721757eea8
@@ -576,8 +589,9 @@ SPEC CHECKSUMS:
   React-runtimeexecutor: 493d9abb8b23c3f84e19ae221eeba92cadcb70dc
   ReactCommon: 8fea6422328e2fc093e25c9fac67adbcf0f04fb4
   RNScreens: d6da2b9e29cf523832c2542f47bf1287318b1868
+  SwiftProtobuf: e905ca1366405696411aaf174411c4b19c0ef73d
   Yoga: e6ecf3fa25af9d4c87e94ad7d5d292eedef49749
 
-PODFILE CHECKSUM: 985cadb51f25d1f8402d9a44db7239f6aedae29d
+PODFILE CHECKSUM: 88584a6f1fec0d887a354bdadb734ddd8d600499
 
 COCOAPODS: 1.11.2
